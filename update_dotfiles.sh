@@ -3,10 +3,10 @@
 # Set your dotfiles repo path
 DOTFILES=~/dotfiles
 
-# Check if at least one argument is provided
+# If no arguments, update all existing folders in dotfiles
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 folder1 [folder2 ...]"
-    exit 1
+    echo "No folders specified. Updating all existing folders in $DOTFILES..."
+    set -- $(ls -1 "$DOTFILES")
 fi
 
 for folder in "$@"; do
