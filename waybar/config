@@ -1,12 +1,12 @@
 {
-    "modules-left": ["custom/power", "hyprland/workspaces"],
-    // "modules-center": [],
-    "modules-right": ["tray", "bluetooth", "network", "battery", "pulseaudio", "clock"],
+    "modules-left": ["custom/power", "hyprland/workspaces", "cava"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["tray", "custom/cava", "pulseaudio", "clock"],
 
     "custom/power": {
         "format" : "⭘ ",
         "tooltip": false,
-        "on-click": "wlogout -b 5",
+        "on-click": "wlogout",
     },
 
     "hyprland/workspaces": {
@@ -15,6 +15,15 @@
         "warp-on-scroll": false,
         "format": "{name}",
         "cursor": true,
+    },
+
+    "hyprland/window": {
+        "format": "{}",
+    },
+
+    "custom/cava": {
+        "format": "{}",
+        "exec": "~/.config/waybar/cava.sh"
     },
 
     "tray": {
