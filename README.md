@@ -1,4 +1,14 @@
-# Hxpe's hyprland config
+# `hxpe's` hyprland config
+
+**WM:** `hyprland`  
+**Terminal:** `kitty`  
+**Shell:** `fish`  
+**Launcher:** `rofi`  
+**Bar:** `waybar`  
+**Notifications:** `swaync`  
+**Logout:** `wlogout`  
+
+---
 
 ### Note to myself
 Use the `update_dotfiles.sh` to copy the ~/.config files into the ~/dotfiles folder.
