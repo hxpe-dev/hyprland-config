@@ -17,3 +17,10 @@ Example usage:
 update_dotfiles.sh hypr kitty waybar
 ```
 This command will update the hypr, kitty and waybar config folder into ~/dotfiles.
+
+**Fix wrong time:**  
+```
+sudo hwclock --hctosys 
+sudo timedatectl set-ntp true
+```
+
