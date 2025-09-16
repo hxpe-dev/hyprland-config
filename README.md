@@ -1,5 +1,7 @@
 # `hxpe's` hyprland config
 
+I use one of my own tool called [kotofetch](https://github.com/hxpe-dev/kotofetch).
+
 **WM:** `hyprland`  
 **Terminal:** `kitty`  
 **Shell:** `fish`  

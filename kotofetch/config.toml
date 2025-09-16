@@ -1,0 +1,12 @@
+[display]
+horizontal_padding = 3
+vertical_padding = 1
+width = 0
+show_translation = true
+translation_color = "#888888"
+font_size = "large"
+bold = true
+border = false
+source = false
+mode = "anime"
+
