@@ -1,0 +1,41 @@
+{
+    // Main
+    "editor.tabSize": 4,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.glyphMargin": false,
+    "editor.folding": true,
+
+    // UI
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "default",
+    "workbench.editor.showTabs": "single",
+    "workbench.productIconTheme": "Default",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "window.title": "${rootName}",
+    "window.commandCenter": false,
+    "window.restoreFullscreen": false,
+    "window.density.editorTabHeight": "default",
+    "window.menuBarVisibility": "compact",
+    "explorer.decorations.badges": true,
+    "explorer.fileNesting.enabled": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.sortOrder": "type",
+    "editor.lineNumbers": "relative",
+    "editor.renderLineHighlight": "none",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.minimap.enabled": true,
+    "editor.smoothScrolling": true,
+    "editor.fontFamily": "GeistMono Nerd Font Propo",
+
+    // CURSOR
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyleInactive": "line",
+}
