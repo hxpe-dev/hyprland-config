@@ -8,7 +8,9 @@ I use one of my own tool called [kotofetch](https://github.com/hxpe-dev/kotofetc
 **Launcher:** `rofi`  
 **Bar:** `waybar`  
 **Notifications:** `swaync`  
-**Logout:** `wlogout`  
+**Logout:** `wlogout` 
+
+The `vscode/settings.json` config needs to be moved to `~/config/Code/User/settings.json`.
 
 ---
 
