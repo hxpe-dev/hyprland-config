@@ -1,14 +1,16 @@
 [display]
-horizontal_padding = 0
+horizontal_padding = 5
 vertical_padding = 3
 width = 0
 show_translation = "english"
 translation_color = "dim"
+quote_color = "white"
+border_color = "white"
 font_size = "medium"
 bold = true
 border = false
 rounded_border = true
 source = false
-modes = ["proverb", "anime"]
+modes = ["test", "anime"]
 centered = true
-
+dynamic = false
